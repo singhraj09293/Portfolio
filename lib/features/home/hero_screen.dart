@@ -3,8 +3,9 @@ import 'package:portfolio/core/theme/app_colors.dart';
 import 'package:portfolio/core/theme/app_text_style.dart';
 import 'package:portfolio/features/home/about_section.dart';
 import 'package:portfolio/features/home/feature_project.dart';
+import 'package:portfolio/features/home/lets_talk.dart';
+import 'package:portfolio/features/home/tool_kit.dart';
 import 'package:portfolio/widgets/app_pill.dart';
-import 'package:portfolio/widgets/section_block.dart';
 import 'package:portfolio/widgets/stiker.dart';
 
 class HeroScreen extends StatefulWidget {
@@ -21,7 +22,7 @@ class _HeroScreenState extends State<HeroScreen> {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
-          child: Column(children: [HeroSection(),AboutSection(),FeatureProject()]),
+          child: Column(children: [HeroSection(),AboutSection(),FeatureProject(),ToolKit(),LetsTalk()]),
         ),
       ),
     );

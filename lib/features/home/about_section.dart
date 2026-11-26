@@ -15,8 +15,12 @@ class AboutSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          AppPill(text: 'About',backgroundColor: AppColors.ink,textColor: AppColors.cream,),
-          SizedBox(height: 10,),
+          AppPill(
+            text: 'About',
+            backgroundColor: AppColors.ink,
+            textColor: AppColors.cream,
+          ),
+          SizedBox(height: 10),
           Text(
             "I'm a BSc IT student who likes building apps people actually use. "
             "I made Scorekar after getting tired of scoring gully cricket on paper, "
@@ -45,7 +49,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: FactTile(
                   label: 'BUILT',
-                  value: 'Scorekar,Bahi,Newzly,\nNewzly,MovieFlex',
+                  value: 'Scorekar,Bahi,\nNewzly,MovieFlex',
                 ),
               ),
               SizedBox(width: 12),

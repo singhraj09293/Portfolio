@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/theme/app_colors.dart';
 import 'package:portfolio/core/theme/app_theme.dart';
+import 'package:portfolio/features/home/hero_screen.dart';
 import 'package:portfolio/widgets/app_pill.dart';
 import 'package:portfolio/widgets/stiker.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.theme, home: Home());
+      theme: AppTheme.theme, home: HeroScreen());
   }
 }
 
